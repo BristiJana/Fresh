@@ -18,7 +18,7 @@ var nodemailer = require("nodemailer");
 
 const JWT_SECRET =
   "gfjgfhjhhkhgkhg67867867686()gggkk?[]uyuiyy68587587ghgg[]]fhfjgfj6786";
-const mongoUrl = process.env.DATABASE;
+const mongoUrl = "mongodb+srv://dbuser:1234@cluster0.sq9rrxz.mongodb.net/test";
 
 const bearerToken =
   "AAAAAAAAAAAAAAAAAAAAADjylAEAAAAAm3Et7T%2F2fJfd1biJoQTO1bkgLnk%3DrSlBZvRUlnC1LjmhQxfxE5XAGfTV4BfgpxjfhRqO1xCtnc5aog";
