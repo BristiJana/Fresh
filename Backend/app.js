@@ -6,7 +6,9 @@ const mongoose = require("mongoose");
 const needle = require("needle");
 app.use(express.json());
 const cors = require("cors");
-app.use(cors());
+app.use(cors( {
+    origin:["http://localhoast:3000","https://mern-task-appf.onrender.com"]
+  }));
 const bcrypt = require("bcryptjs");
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
